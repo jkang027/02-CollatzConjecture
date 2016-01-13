@@ -57,8 +57,7 @@ namespace CollatzConjecture
                     }
                 }
 
-
-            Console.WriteLine("It took " + n + " steps to reach 1 from " + startingNumber + ".");
+            Console.WriteLine("It took " + n + " step(s) to reach 1 from " + startingNumber + ".");
             Console.WriteLine("The value reaches its peak of " + largestNumber + " at step " + largestN + ".");
             Console.WriteLine("Hit 'enter' to close.");
             Console.ReadLine();
